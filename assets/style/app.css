@@ -1,0 +1,174 @@
+body {
+  background: linear-gradient(#ffffff,#00c8ff 30%, #00c6ff);
+  min-height: 100vh;
+  font-family: system-ui;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  grid-area: 50px;
+ margin-top: 100px;
+}
+
+.profile-container img {
+  width: 200px;      
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-container h2 {
+  color: #000;
+  margin: 10px;
+
+}
+
+.profile-container p {
+  color: #000;
+}
+
+.TENTANGSAYA {
+  background: #ffffff;
+  padding: 3rem 0;
+}
+
+.TENTANGSAYA h1 {
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.TENTANGSAYA img {
+  border-radius: 8px;
+  width: 250px;
+  height: auto;
+}
+
+.Portofolio {
+  background: linear-gradient(#ffffff );
+ padding-bottom: 50px;
+}
+
+.Portofolio h1 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.table th {
+  padding: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 600;
+}
+
+.table td {
+  padding: 1rem;
+  vertical-align: middle;
+}
+.sertifikat img {
+  width: 100px;
+  border-radius: 10px;
+}
+.sertifikat2 img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.opiniberita {
+  background: #ffffff;
+  padding: 3rem 0;
+}
+
+.opiniberita h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#kontak {
+  background: linear-gradient(#ffffff 30%, #00bcf0 80%);
+  padding: 3rem 0;
+}
+
+#kontak h2 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 992px) {
+  .profile {
+    margin-top: 80px;
+  }
+  
+  .TENTANGSAYA .row {
+    flex-direction: column;
+  }
+  
+  .TENTANGSAYA .col-md-4 {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .table th, 
+  .table td {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile {
+    margin-top: 70px;
+  }
+  
+  .profile img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .TENTANGSAYA h1,
+  .Portofolio h1,
+  .opiniberita h1 {
+    font-size: 1.75rem;
+  }
+}
+.btn-primary {
+  background-color: #0d6efd;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
