@@ -1,6 +1,6 @@
-# Portofolio Web
+# Biodata web
 
-Website portofolio dengan fitur CRUD (Create, Read, Update, Delete) menggunakan PHP dan MySQL.
+Website biodata M.Yoga adi saputra dengan fitur CRUD (Create, Read, Update, Delete) menggunakan PHP dan MySQL.
 
 ## Fitur
 - Manajemen data portofolio
