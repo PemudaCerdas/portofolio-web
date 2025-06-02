@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/style/app.css"> 
+  <title>Portofolio - M. Yoga Adi Saputra</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Biodata</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tentangsaya">Tentang Saya</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portofolio">Portofolio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Lainya
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#opini">Opini & Berita</a></li>
+              <li><a class="dropdown-item" href="#kontak">Kontak</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="profile-container justify-content-center">
+    <img src="assets/image/profileimage.png" alt="Profile Photo" class="profile-photo">
+    <div class="profile-info">
+      <h2>M. Yoga Adi Saputra</h2>
+      <p>Software Developer</p>
+    </div>
+  </div>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#ffffff" fill-opacity="1"
+      d="M0,128L21.8,154.7C43.6,181,87,235,131,224C174.5,213,218,139,262,128C305.5,117,349,171,393,176C436.4,181,480,139,524,133.3C567.3,128,611,160,655,197.3C698.2,235,742,277,785,277.3C829.1,277,873,235,916,197.3C960,160,1004,128,1047,101.3C1090.9,75,1135,53,1178,74.7C1221.8,96,1265,160,1309,165.3C1352.7,171,1396,117,1418,90.7L1440,64L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z">
+    </path>
+  </svg>
+  
+  <section id="tentangsaya" class="TENTANGSAYA">
+    <h1 class="text-center">TENTANG SAYA</h1>
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col-md-4 text-center">
+          <img src="assets/image/WhatsApp Image 2025-05-02 at 19.00.07.jpeg" class="img-fluid" alt="Foto Saya"
+            width="300px">
+        </div>
+        <div class="col-md-8">
+          <p class="lead">Halo! Nama saya M. Yoga Adi Saputra biasa dipanggil ADI.</p>
+          <p>Saya adalah seorang mahasiswa aktif di Program Studi Teknik Informatika di Universitas Nahdlatul Ulama
+            Sunan Giri (UNUGIRI) Bojonegoro. Saat ini saya sedang menempuh semester 2 dan akan segera memasuki semester
+            3. Saya memilih jurusan ini karena saya memiliki ketertarikan besar terhadap teknologi informasi,
+            pemrograman, dan dunia digital secara umum.</p>
+          <p>Di sela waktu perkuliahan, saya juga aktif membantu usaha konveksi milik orang tua saya yang berada di
+            Surabaya. Dalam usaha keluarga tersebut, saya dipercaya sebagai bagian pemasaran dan admin pemesanan.</p>
+          <p>Pengalaman bekerja di dunia usaha sejak dini sangat membantu saya dalam melatih keterampilan komunikasi,
+            manajemen waktu, dan tanggung jawab. Saya juga mulai memahami pentingnya kolaborasi, ketelitian, dan
+            pelayanan pelanggan dalam menjaga kepercayaan dan kualitas bisnis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="portofolio" class="Portofolio py-5 bg-light">
+    <div class="container">
+      <h1 class="text-center mb-4">PORTOFOLIO</h1>
+      
+      <!-- Tombol Tambah Data -->
+      <div class="text-end mb-4">
+        <a href="form_tambah.php" class="btn btn-primary">
+          <i class="bi bi-plus-circle"></i> Tambah Data
+        </a>
+      </div>
+      
+      <!-- Tabel Portofolio -->
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover">
+          <thead class="table-dark">
+            <tr>
+              <th width="5%">#</th>
+              <th width="30%">Nama Kegiatan</th>
+              <th width="15%">Waktu</th>
+              <th width="30%">Bukti</th>
+              <th width="20%">Aksi</th>
+            </tr>
+          </thead>
+          <tbody id="dataPortofolio">
+            <!-- Data akan diisi oleh JavaScript -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+  </section>
+  <section id="opini" class="opiniberita py-5">
+    <div class="container">
+      <h1 class="text-center mb-5">OPINI & BERITA</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="assets/image/dpr.png" class="card-img-top" alt="Berita AI">
+            <div class="card-body">
+              <h5 class="card-title">Pratikno: Indonesia Harus Jadi AI Developer, Bukan Cuma User</h5>
+              <p class="card-text">Menteri Koordinator Bidang Pembangunan Manusia dan Kebudayaan (Menko PMK) Pratikno
+                mengadakan Rapat Tingkat Menteri (RTM) membahas persiapan sumber daya manusia (SDM) unggulan dalam
+                perkembangan artificial intelligence (AI). Pratikno mengatakan ingin masyarakat Indonesia tak hanya
+                menjadi pengguna AI.</p>
+            </div>
+            <div class="card-footer bg-transparent">
+              <a href="https://news.detik.com/berita/d-7891923/pratikno-indonesia-harus-jadi-ai-developer-bukan-cuma-user"
+                target="_blank" class="btn btn-primary w-100">
+                <i class="bi bi-newspaper"></i> Kunjungi Berita
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="assets/image/ai.png" class="card-img-top" alt="AI Ngoding">
+            <div class="card-body">
+              <h5 class="card-title">Ketika AI Mulai Ngoding</h5>
+              <p class="card-text">Dunia pemrograman sedang mengalami pergeseran besar. Bukan, bukan karena para
+                programer akhirnya belajar merapikan kode mereka, tapi karena Mark Zuckerberg baru saja mengumumkan
+                bahwa mulai 2025, perusahaan Meta miliknya menggunakan AI secara ekstensif untuk menulis kode.</p>
+            </div>
+            <div class="card-footer bg-transparent">
+              <a href="https://tagar.co/ketika-ai-mulai-ngoding/" target="_blank" class="btn btn-primary w-100">
+                <i class="bi bi-newspaper"></i> Kunjungi Berita
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="assets/image/IT.png" class="card-img-top" alt="Inflasi IT">
+            <div class="card-body">
+              <h5 class="card-title">Inflasi Lulusan IT</h5>
+              <p class="card-text">Menurut Bank Dunia, Indonesia membutuhkan 9 juta pekerja informasi dan teknologi
+                (IT) sepanjang 2025-2030. Hal itu ingin dicapai agar pada 2030 Indonesia dapat mencapai kemandirian
+                industri digital, bukan hanya sebagai konsumen. Sayangnya pada 2023 saja hanya 16% lulusan ilmu
+                komputer yang berhasil memasuki dunia kerja sebagai pengembang perangkat lunak atau profesi di bidang
+                IT.</p>
+            </div>
+            <div class="card-footer bg-transparent">
+              <a href="https://news.detik.com/kolom/d-7830965/inflasi-lulusan-it" target="_blank" class="btn btn-primary w-100">
+                <i class="bi bi-newspaper"></i> Kunjungi Berita
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="kontak" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-bold">HUBUNGI SAYA</h2>
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="card shadow-sm h-100">
+            <div class="card-body p-4">
+              <h3 class="card-title mb-4"><i class="bi bi-envelope me-2"></i>Kirim Pesan</h3>
+              <form id="contactForm" onsubmit="sendWhatsAppMessage(); return false;">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Alamat Email</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Pesan Anda</label>
+                  <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">
+                  <i class="bi bi-send me-2"></i>Kirim via WhatsApp
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="card shadow-sm h-100">
+            <div class="card-body p-4">
+              <h3 class="card-title mb-4"><i class="bi bi-geo-alt me-2"></i>Lokasi Saya</h3>
+              <div class="ratio ratio-16x9 mb-4">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7915.383856544091!2d111.69525973739769!3d-7.275852628434402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79d7a6135990bb%3A0x25216f3f8fa6da35!2sNgesrep%20Kidul%2C%20Mulyorejo%2C%20Kec.%20Tambakrejo%2C%20Kabupaten%20Bojonegoro%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1746263688368!5m2!1sid!2sid"
+                  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="mt-3">
+                <h5 class="fw-bold"><i class="bi bi-house-door me-2"></i>Alamat Lengkap:</h5>
+                <p>Ngesrep Kidul, Mulyorejo, Kec. Tambakrejo, Kabupaten Bojonegoro, Jawa Timur</p>
+                
+                <h5 class="fw-bold mt-4"><i class="bi bi-telephone me-2"></i>Kontak:</h5>
+                <p><i class="bi bi-whatsapp me-2 text-success"></i> +62 889-8018-4849</p>
+                <p><i class="bi bi-envelope me-2 text-primary"></i> ys9595830@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <div class="social-icons mb-3">
+        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-github"></i></a>
+      </div>
+      <p class="mb-0">Created with by M. Yoga Adi Saputra</p>
+      <p class="mb-0">&copy; 2025 All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+    
+  <script>
+    // Fungsi untuk mengirim pesan WhatsApp
+    function sendWhatsAppMessage() {
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+
+      const url = "https://api.whatsapp.com/send?phone=+6288980184849&text=Hallo%20Mohon%20Maaf%20Mengganggu%20Waktunya%0ASaya%20*" + 
+                  encodeURIComponent(name) + "*%0AGmail%20Saya%20*" + encodeURIComponent(email) + "*%0A%0A*" + 
+                  encodeURIComponent(message) + "*";
+      window.open(url);
+    }
+    
+    // Fungsi untuk memuat data portofolio
+    document.addEventListener("DOMContentLoaded", function() {
+      fetchPortofolioData();
+    });
+    
+    function fetchPortofolioData() {
+      fetch("read.php")
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
+          }
+          return response.json();
+        })
+        .then(data => {
+          const tbody = document.getElementById("dataPortofolio");
+          tbody.innerHTML = "";
+          
+          if (data.length === 0) {
+            tbody.innerHTML = `
+              <tr>
+                <td colspan="5" class="text-center text-muted py-4">
+                  <i class="bi bi-info-circle fs-1"></i>
+                  <p class="mt-2">Belum ada data portofolio</p>
+                  <a href="form_tambah.php" class="btn btn-sm btn-primary">Tambah Data</a>
+                </td>
+              </tr>
+            `;
+            return;
+          }
+          
+          data.forEach((item, index) => {
+            // Format tanggal
+            const date = new Date(item.waktu);
+            const formattedDate = date.toLocaleDateString('id-ID', {
+              day: '2-digit',
+              month: '2-digit',
+              year: 'numeric'
+            });
+            
+            // Tampilkan bukti (link atau file)
+            let buktiCell;
+            if (item.bukti.startsWith('http')) {
+              buktiCell = `<a href="${item.bukti}" target="_blank" class="text-decoration-none">${item.bukti}</a>`;
+            } else if (item.bukti.startsWith('uploads/')) {
+              const fileName = item.bukti.split('/').pop();
+              buktiCell = `<a href="${item.bukti}" target="_blank" class="text-decoration-none">
+                <i class="bi bi-file-earmark-arrow-down"></i> ${fileName}
+              </a>`;
+            } else {
+              buktiCell = item.bukti;
+            }
+            
+            // Tambahkan baris ke tabel
+            tbody.innerHTML += `
+              <tr>
+                <td>${index + 1}</td>
+                <td>${item.nama_kegiatan}</td>
+                <td>${formattedDate}</td>
+                <td>${buktiCell}</td>
+                <td>
+                  <a href="form_edit.php?id=${item.id}" class="btn btn-sm btn-warning me-2">
+                    <i class="bi bi-pencil-square"></i> Edit
+                  </a>
+                  <button class="btn btn-sm btn-danger" onclick="deletePortofolio(${item.id})">
+                    <i class="bi bi-trash"></i> Hapus
+                  </button>
+                </td>
+              </tr>
+            `;
+          });
+        })
+        .catch(error => {
+          console.error("Error fetching portofolio data:", error);
+          const tbody = document.getElementById("dataPortofolio");
+          tbody.innerHTML = `
+            <tr>
+              <td colspan="5" class="text-center text-danger py-4">
+                <i class="bi bi-exclamation-triangle fs-1"></i>
+                <p class="mt-2">Gagal memuat data</p>
+                <button class="btn btn-sm btn-outline-danger" onclick="fetchPortofolioData()">
+                  <i class="bi bi-arrow-clockwise"></i> Coba Lagi
+                </button>
+              </td>
+            </tr>
+          `;
+        });
+    }
+    
+    // Fungsi untuk menghapus data portofolio
+    function deletePortofolio(id) {
+      if (confirm("Apakah Anda yakin ingin menghapus data ini?")) {
+        fetch("delete.php", {
+          method: "POST",
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
+          body: `id=${id}`
+        })
+        .then(response => {
+          if (response.ok) {
+            fetchPortofolioData();
+          } else {
+            alert("Gagal menghapus data");
+          }
+        })
+        .catch(error => {
+          console.error("Error:", error);
+          alert("Terjadi kesalahan saat menghapus data");
+        });
+      }
+    }
+  </script>
+</body>
+</html>
